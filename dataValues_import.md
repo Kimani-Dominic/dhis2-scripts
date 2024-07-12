@@ -22,12 +22,13 @@
     }
   ]
 }
+```
 
 
 * Use curl to Import Data Values
 
 ```curl
 curl -u admin:district -H "Content-Type: application/json" -X POST -d @dataValues.json http://localhost:8070/api/dataValueSets
-
+```
 
 * verify the import through the API
